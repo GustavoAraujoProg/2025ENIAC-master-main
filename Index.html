@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Arq | Arquitetura & Design</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container nav-container">
+        <div class="logo">DANIELLE<span>ARQUITETA</span></div>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="./meus_projetos.html">Meus Projetos</a></li>
+            <li><a href="#trajetoria">Trajetória</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <!----
+<li><a href="#login">Login</a></li>
+-->
+           
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- BANNER PRINCIPAL -->
+    <section class="banner" id="inicio">
+      <div class="container">
+        <div class="banner-texto">
+          <h1>Transformando espaços em experiências</h1>
+          <p>
+            Design de interiores e projetos arquitetônicos que unem
+            funcionalidade, estética e sua personalidade.
+          </p>
+          <a href="#contato" class="btn">Agende uma consulta</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE -->
+    <section class="secao sobre" id="sobre">
+      <div class="container">
+        <h2 class="titulo-secao">Sobre mim</h2>
+        <div class="sobre-container">
+          <div class="sobre-img">
+            <img src="./Imagens/FotoSOBRE.jpg" alt="Arquiteta" />
+          </div>
+          <div class="sobre-texto">
+            <h2>Olá, eu sou a Danielle Nogueira</h2>
+            <p>
+              Arquiteta e urbanista formada pela Universidade de São Paulo
+              (USP), com especialização em Design de Interiores pela Parsons
+              School of Design (Nova York). Há mais de 5 anos transformando
+              espaços e realizando sonhos.
+            </p>
+            <p>
+              Meu trabalho é guiado pela busca da harmonia entre funcionalidade
+              e estética, sempre respeitando a personalidade e necessidades de
+              cada cliente. Acredito que os ambientes que habitamos influenciam
+              diretamente nossa qualidade de vida.
+            </p>
+            <p>
+              Cada projeto é uma oportunidade de criar espaços únicos que
+              traduzem histórias e inspiram vidas. Minha abordagem combina
+              criatividade, inovação e sustentabilidade para desenvolver
+              soluções que surpreendem e encantam.
+            </p>
+            <div class="assinatura">Danielle Nogueira</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO PROJETOS -->
+    <section class="secao projetos" id="projetos">
+      <div class="container">
+        <h2 class="titulo-secao">Meus Projetos</h2>
+        <div class="projetos-filtros">
+          <button class="filtro-btn ativo" data-filtro="todos">Todos</button>
+          <button class="filtro-btn" data-filtro="residencial">
+            Residencial
+          </button>
+          <button class="filtro-btn" data-filtro="comercial">Comercial</button>
+          <button class="filtro-btn" data-filtro="corporativo">
+            Corporativo
+          </button>
+        </div>
+        <div class="projetos-grid">
+          <!-- Projeto 1 -->
+          <div class="projeto-card" data-categoria="residencial">
+            <div class="projeto-img">
+              <img src="./Imagens/Residencial1.jpeg" alt="Projeto Residencial" />
+            </div>
+            <div class="projeto-info">
+              <h3>Casa em Alphavile</h3>
+              <p>
+                Projeto residencial com integração entre ambientes e
+                aproveitamento da luz natural.
+              </p>
+               <!----
+              <a href="#">Ver projeto →</a>
+              -->
+            </div>
+          </div>
+
+          <!-- Projeto 2 -->
+          <div class="projeto-card" data-categoria="comercial">
+            <div class="projeto-img">
+              <img src="./Imagens/Comercial1.jpeg" alt="Projeto Comercial" />
+            </div>
+            <div class="projeto-info">
+              <h3>Sala de Reunião</h3>
+              <p>
+                Um espaço que inspira: Conforto, Sofisticação e Produtividade em um só
+                Ambiente.
+              </p>
+              <!----
+             <a href="#">Ver projeto →</a>
+          -->
+              </div>
+          </div>
+
+          <!-- Projeto 3 -->
+          <div class="projeto-card" data-categoria="corporativo">
+            <div class="projeto-img">
+              <img src="./Imagens/Corporativo1.jpeg" alt="Projeto Corporativo" />
+            </div>
+            <div class="projeto-info">
+              <h3>Hall</h3>
+              <p>
+                Neste Hall,  diálogo entre o mármore e o design contemporâne cria um
+                ambiente de elegância intocada.
+              </p>
+               <!----
+              <a href="#">Ver projeto →</a>
+              -->
+            </div>
+          </div>
+
+          <!-- Projeto 4 -->
+          <div class="projeto-card" data-categoria="residencial">
+            <div class="projeto-img">
+              <img src="./Imagens/Residencial2.jpeg" alt="Projeto Residencial" />
+            </div>
+            <div class="projeto-info">
+              <h3>Casa em Caraguatatuba</h3>
+              <p>
+                Um toque de modernidade e elegância na fachada. O contraste entre o cimento
+                e a madeira ripada traz uma atmosfera única e acolhedora.
+              </p>
+               <!----
+              <a href="#">Ver projeto →</a>
+            -->
+            </div>
+          </div>
+
+          <!-- Projeto 5 -->
+          <div class="projeto-card" data-categoria="comercial">
+            <div class="projeto-img">
+              <img src="./Imagens/Comercial2.jpeg" alt="Projeto Comercial " />
+            </div>
+            <div class="projeto-info">
+              <h3>Sala de Vendas</h3>
+              <p>
+                A escolha das cores desempenha um papel fundamental. Optar por tons mais sóbrios
+                como o preto, pode criar uma sensação de elegância e sofisticação.
+              </p>
+               <!----
+              <a href="#">Ver projeto →</a>
+              -->
+            </div>
+          </div>
+
+          <!-- Projeto 6 -->
+          <div class="projeto-card" data-categoria="corporativo">
+            <div class="projeto-img">
+              <img src="./Imagens/Corportivo2.jpeg" alt="Projeto Corporativo" />
+            </div>
+            <div class="projeto-info">
+              <h3>Studio Corporativo</h3>
+              <p>
+                Sala corporativa pefeita em tons Neutros.
+              </p>
+               <!----
+              <a href="#">Ver projeto →</a>
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO TRAJETÓRIA -->
+    <section class="secao trajetoria" id="trajetoria">
+      <div class="container">
+        <h2 class="titulo-secao">Minha Trajetória</h2>
+        <div class="timeline">
+          <!-- Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="data">2019</div>
+              <h3>Formação em Arquitetura e Urbanismo</h3>
+              <p>
+                Graduação na Universidade de São Paulo (USP) com projeto de
+                conclusão premiado.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="data">2020</div>
+              <h3>Especialização em Design de Interiores</h3>
+              <p>
+                Parsons School of Design (Nova York) - Bolsa de estudos por
+                mérito acadêmico.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="data">2021</div>
+              <h3>Início do Studio ARQ</h3>
+              <p>
+                Fundação do escritório próprio com foco em projetos residenciais
+                e comerciais.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="data">2022</div>
+              <h3>Prêmio Nacional de Arquitetura</h3>
+              <p>
+                Reconhecimento pelo projeto Casa Sustentável, com destaque para
+                soluções ecológicas.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="data">2023</div>
+              <h3>Expansão Internacional</h3>
+              <p>
+                Primeiro projeto internacional realizado em Portugal, abrindo
+                portas para Europa.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="data">2024</div>
+              <h3>Certificação em Arquitetura Sustentável</h3>
+              <p>
+                Especialização em construções verdes e implementação de práticas
+                sustentáveis.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 7 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="data">2025</div>
+              <h3>10 Anos de Studio ARQ</h3>
+              <p>
+                Celebração de uma década de projetos inovadores e mais de 200
+                clientes satisfeitos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO CONTATO -->
+    <section class="secao contato" id="contato">
+      <div class="container">
+        <h2 class="titulo-secao">Entre em Contato</h2>
+        <div class="contato-container">
+          <div class="contato-info">
+            <h3>Informações de Contato</h3>
+            <div class="contato-detalhes">
+              <div class="contato-item">
+                <i>📍</i>
+                <p>Av. Paulista, 1000, São Paulo - SP, Brasil</p>
+              </div>
+              <div class="contato-item">
+                <i>📞</i>
+                <p>(11) 98765-4321</p>
+              </div>
+              <div class="contato-item">
+                <i>✉️</i>
+                <p>contato@studioarq.com.br</p>
+              </div>
+              <div class="contato-item">
+                <i>🕒</i>
+                <p>Segunda a Sexta: 9h - 18h</p>
+              </div>
+            </div>
+
+            <h3>Redes Sociais</h3>
+            <div class="social-links">
+              <a href="#"><span>FB</span></a>
+              <a href="#"><span>IG</span></a>
+              <a href="#"><span>PT</span></a>
+              <a href="#"><span>LI</span></a>
+            </div>
+          </div>
+
+                    <div class="formulario">
+  <h3>Agende uma Consulta</h3>
+  <form id="formulario-contato" action="https://formsubmit.co/gustavo.araujox1206@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="Novo agendamento de consulta - Studio Arq">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_autoresponse" value="Recebemos sua mensagem. Entraremos em contato em breve!">
+    <input type="hidden" name="_next" value="https://localhost/PROJEOT/obrigado.html">
+    
+    <div class="form-grupo">
+      <label for="nome">Nome Completo</label>
+      <input type="text" id="nome" name="nome" class="form-control" required />
+    </div>
+    <div class="form-grupo">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" class="form-control" required />
+    </div>
+    <div class="form-grupo">
+      <label for="telefone">Telefone</label>
+      <input type="tel" id="telefone" name="telefone" class="form-control" required />
+    </div>
+    <div class="form-grupo">
+      <label for="data">Data Preferencial</label>
+      <input type="date" id="data" name="data" class="form-control" required />
+    </div>
+    <div class="form-grupo">
+      <label for="mensagem">Mensagem</label>
+      <textarea
+        id="mensagem"
+        name="mensagem"
+        class="form-control"
+        placeholder="Descreva seu projeto ou necessidade..."
+        required
+      ></textarea>
+    </div>
+    <button type="submit" class="btn">Enviar Mensagem</button>
+  </form>
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- SEÇÃO LOGIN/REGISTRO -->
+<!---
+    <section class="secao login-registro" id="login">
+      <div class="container">
+        <h2 class="titulo-secao">Área do Cliente</h2>
+        <div class="login-container">
+          <div class="login-imagem"></div>
+          <div class="login-formularios">
+            <div class="tabs">
+              <button class="tab-btn ativo" data-tab="login">Login</button>
+              <button class="tab-btn" data-tab="registro">Criar Conta</button>
+            </div>
+
+            <!-- Formulário de Login -->
+            <div class="tab-conteudo ativo" id="tab-login">
+              <form id="formulario-login">
+                <div class="form-grupo">
+                  <label for="login-email">Email</label>
+                  <input
+                    type="email"
+                    id="login-email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-grupo">
+                  <label for="login-senha">Senha</label>
+                  <input
+                    type="password"
+                    id="login-senha"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-grupo">
+                  <a
+                    href="#"
+                    style="
+                      display: block;
+                      text-align: right;
+                      color: var(--cor-primaria);
+                      text-decoration: none;
+                      margin-bottom: 20px;
+                    "
+                    >Esqueceu a senha?</a
+                  >
+                </div>
+                <button type="submit" class="btn" style="width: 100%">
+                  Entrar
+                </button>
+              </form>
+            </div>
+       
+            <!-- Formulário de Registro -->
+            <div class="tab-conteudo" id="tab-registro">
+              <form id="formulario-registro">
+                <div class="form-grupo">
+                  <label for="registro-nome">Nome Completo</label>
+                  <input
+                    type="text"
+                    id="registro-nome"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-grupo">
+                  <label for="registro-email">Email</label>
+                  <input
+                    type="email"
+                    id="registro-email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-grupo">
+                  <label for="registro-telefone">Telefone</label>
+                  <input
+                    type="tel"
+                    id="registro-telefone"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-grupo">
+                  <label for="registro-senha">Senha</label>
+                  <input
+                    type="password"
+                    id="registro-senha"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-grupo">
+                  <label for="registro-confirma-senha">Confirmar Senha</label>
+                  <input
+                    type="password"
+                    id="registro-confirma-senha"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <button type="submit" class="btn" style="width: 100%">
+                  Criar Conta
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-coluna">
+            <h3>STUDIO ARQ</h3>
+            <p style="color: #ccc; line-height: 1.6">
+              Transformando espaços em experiências únicas que refletem sua
+              personalidade e estilo de vida.
+            </p>
+          </div>
+          <div class="footer-coluna">
+            <h3>Links Rápidos</h3>
+            <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#trajetoria">Trajetória</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-coluna">
+            <h3>Serviços</h3>
+            <ul>
+              <li><a href="#">Projetos Residenciais</a></li>
+              <li><a href="#">Design de Interiores</a></li>
+              <li><a href="#">Projetos Comerciais</a></li>
+              <li><a href="#">Consultoria</a></li>
+              <li><a href="#">Reforma e Renovação</a></li>
+            </ul>
+          </div>
+          <div class="footer-coluna">
+            <h3>Newsletter</h3>
+            <p style="color: #ccc; margin-bottom: 15px">
+              Assine para receber novidades e inspirações
+            </p>
+            <form>
+              <div style="display: flex">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Seu email"
+                  style="border-radius: 5px 0 0 5px"
+                />
+                <button
+                  type="submit"
+                  class="btn"
+                  style="border-radius: 0 5px 5px 0; padding: 12px 15px"
+                >
+                  →
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>© 2025 STUDIO ARQ. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Projeto - Studio Arq</title>
+    <link rel="stylesheet" href="./style_projetos.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+      <div class="container nav-container">
+        <div class="logo">DANIELLE<span>ARQUITETA</span></div>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./Index.html">Início</a></li>
+            <li><a href="./meus_projetos.html">Meus Projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="banner projeto-banner" id="topo">
+      <div class="container">
+        <div class="banner-texto">
+          <h1 id="titulo-projeto">Nome do Projeto em Destaque</h1>
+          <p>
+            Uma breve descrição ou subtítulo que resume o conceito.
+          </p>
+          <a href="#detalhes" class="btn">Ver Detalhes ↓</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao detalhes-projeto" id="detalhes">
+        <div class="container">
+            <h2 class="titulo-secao">Visão Geral e Conceito</h2>
+            <div class="detalhes-grid">
+                <div class="info-principal">
+                    <h3>O Desafio e a Solução</h3>
+                    <p>
+                        Aqui será inserido o texto principal sobre o projeto, 
+                        abordando o briefing inicial, os desafios encontrados 
+                        e as soluções criativas e funcionais desenvolvidas. 
+                        Detalhe o conceito que guiou o design, como materiais, 
+                        cores e a relação com o entorno.
+                    </p>
+                    <p>
+                        O projeto buscou a integração total dos ambientes sociais, 
+                        o aproveitamento máximo da luz natural e a utilização de 
+                        materiais sustentáveis e de baixo impacto ambiental.
+                    </p>
+                    
+                    <h3 style="margin-top: 30px;">Dados Técnicos</h3>
+                    <ul class="dados-tecnicos">
+                        <li><i class="fas fa-ruler-combined"></i> Área: <span>350 m²</span></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Local: <span>Cidade/Estado</span></li>
+                        <li><i class="fas fa-calendar-alt"></i> Conclusão: <span>2024</span></li>
+                        <li><i class="fas fa-tag"></i> Categoria: <span>Residencial Alto Padrão</span></li>
+                    </ul>
+
+                    <a href="./meus_projetos.html" class="btn" style="margin-top: 20px;">Voltar aos Projetos</a>
+
+                </div>
+
+                <div class="galeria-projeto">
+                    <img src="/api/placeholder/800/600" alt="Imagem de Destaque do Projeto" class="img-destaque">
+                    <div class="miniaturas">
+                        <img src="/api/placeholder/200/150" alt="Miniatura 1">
+                        <img src="/api/placeholder/200/150" alt="Miniatura 2">
+                        <img src="/api/placeholder/200/150" alt="Miniatura 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao galeria-completa">
+        <div class="container">
+            <h2 class="titulo-secao">Galeria de Imagens</h2>
+            <div class="projetos-grid galeria-grid">
+                <div class="projeto-card">
+                    <div class="projeto-img">
+                        <img src="/api/placeholder/600/400" alt="Cozinha Integrada">
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Cozinha Integrada</h3>
+                        <p>Design moderno com ilha central e vista para a área externa.</p>
+                    </div>
+                </div>
+                <div class="projeto-card">
+                    <div class="projeto-img">
+                        <img src="/api/placeholder/600/400" alt="Suíte Master">
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Suíte Master</h3>
+                        <p>Conforto e sofisticação com painéis ripados e iluminação indireta.</p>
+                    </div>
+                </div>
+                <div class="projeto-card">
+                    <div class="projeto-img">
+                        <img src="/api/placeholder/600/400" alt="Área Gourmet">
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Área Gourmet</h3>
+                        <p>Espaço ideal para receber, com churrasqueira e piscina.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao plantas" style="background-color: white;">
+        <div class="container">
+            <h2 class="titulo-secao">Plantas Baixas e Layout</h2>
+            <div class="plantas-grid">
+                <div class="planta-card">
+                    <img src="/api/placeholder/800/600" alt="Planta Baixa Térreo">
+                    <h4>Planta Baixa - Térreo</h4>
+                    <p>Distribuição de ambientes sociais e área de serviço.</p>
+                </div>
+                <div class="planta-card">
+                    <img src="/api/placeholder/800/600" alt="Planta Baixa Superior">
+                    <h4>Planta Baixa - Superior</h4>
+                    <p>Setor íntimo com suítes e escritório.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="copyright">
+          <p>© 2025 STUDIO ARQ. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
